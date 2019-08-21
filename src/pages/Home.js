@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-import { homedir } from 'os';
-
+import Services from "../components/Services";
+import FeaturedRooms from "../components/FeaturedRooms";
 
 const home = () => {
     return (
@@ -18,8 +18,8 @@ const home = () => {
                     </Link>
                 </Banner>
             </Hero>
-            {/* <Services />
-            <FeaturedRooms /> */}
+            <Services />
+            <FeaturedRooms />
         </>
     );
 };
